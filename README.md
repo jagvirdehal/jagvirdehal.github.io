@@ -1,6 +1,6 @@
 # Jagvir Dehal - Software Developer
 ## Work Experience
-### Ford Motor Company (Android/C/C++)
+### Ford | Bluetooth Software Developer (Android/C/C++)
 - Cleaned up **10,000+ compiler warnings** and **100+ critical bugs** in **C/C++** codebase
 - Merged **25 pull requests** into production on **GitHub** for the **Bluetooth** codebase
 - Worked on [filtering PIIs](https://www.bluetooth.com/specifications/specs/core-specification-5-4/) from **Bluetooth packets** using **C/C++** and **Wireshark**
