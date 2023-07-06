@@ -1,5 +1,5 @@
 # Jagvir Dehal - Software Developer
-## Experience (top 3 of 5 companies)
+## Work Experience
 ### Ford Motor Company (Android/C/C++)
 - Cleaned up **10,000+ compiler warnings** and **100+ critical bugs** in **C/C++** codebase
 - Merged **25 pull requests** into production on **GitHub** for the **Bluetooth** codebase
@@ -26,7 +26,7 @@
 - Investigated the use of different pre-trained models for embeddings vs. the PCA reduction
 - **Goal:** To gain experience with **Machine Learning** and **Computer Vision**
 
-### Flight Simulator | React + Docker + Socket.io
+### [Flight Simulator](https://github.com/jagvirdehal/flight-sim) | React + [Docker](https://hub.docker.com/repository/docker/jdehal/flight-sim/general) + Socket.io
 - Developed an accessible flight simulation experience that uses a **smartphone accelerometer** to control the airplane
 - Implemented camera controls and movement **from scratch** using primative computer graphics (**vectors, quaternions, etc.**)
 - **Goal:** To gain experience with **Docker containers**, **computer graphics**, and **full-stack app development**
@@ -37,9 +37,35 @@
 - Connected the keyboard to my **smart home** to control the lights and AC
 - **Goal:** To gain experience with **open source software**, creating **firmware** in **C**, and **API**s
 
-### Chess Endgame Solver | Python + Scipy + Numpy
+### [Chess Endgame Solver](https://github.com/jagvirdehal/chess) | Python + Scipy + Numpy
 - Developed a program that can arbitrarily solve endgame chess positions using **graph theory**
 - **Optimized** algorithms to work with large datasets upwards of **4.5 million graph connections**
 - Utilizes **data structure and algorithms** knowledge to reduce time and space complexity
-• **Goal:** To gain experience **optimizing** function calls on **large datasets**, as well as generating 
+- **Goal:** To gain experience **optimizing** function calls on **large datasets**, as well as generating 
 and **pruning** connections in **large graphs**
+
+## Skills
+### Languages
+- Python
+- JavaScript
+- C/C++
+
+### Hackathons
+- Hack the North 2021
+- Hack the North 2020++
+- UofT Designathon 2020
+- StarterHacks 2020
+- Hack the North 2019
+- ETHWaterloo 2019
+- VikingHacks 2019 (organizer)
+- PCHacks 2019
+- WolfHacks 2018
+- Hack the Hammer 2018
+- UofT Local Hackday 2017
+
+## Education
+### University of Waterloo | Computer Science (BCS) | Current
+- Operating Systems
+- Data Structures
+- Algorithms
+- Computer Vision
