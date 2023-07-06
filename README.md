@@ -64,7 +64,7 @@ and **pruning** connections in **large graphs**
 - UofT Local Hackday 2017
 
 ## Education
-### University of Waterloo | Computer Science (BCS) | Current
+### [University of Waterloo](https://uwaterloo.ca/) | Computer Science (BCS) | Current
 - Operating Systems
 - Data Structures
 - Algorithms
