@@ -1,13 +1,14 @@
 # Jagvir Dehal - Software Developer
+Email: jagvird216@gmail.com | Github: [jagvirdehal](https://github.com/jagvirdehal) | LinkedIn: [jagvirdehal](https://linkedin.com/in/jagvirdehal/)
 
-## Summary {#summary}
+## Summary
 - Many years of experience working with C/C++, JavaScript and Python
 - Very well-versed in Linux, Bash and other common Unix tools
 - Comfortable working with large codebases (AMD / Ford)
 - Well-practiced in data structures and algorithms
 - In-depth knowledge of web frame-works (Node.js, React.js, etc.)
 
-## Work Experience {#experience}
+## Work Experience
 
 ### [Ford Motor Company](https://ford.com/)
 #### Software Developer (Android & C/C++)
@@ -31,7 +32,7 @@
 - Submitted a professional report to NCR's security team to support the adoption of my firewall portal
 
 
-## Projects {#projects}
+## Projects
 
 ### [CNN Image Classification](https://github.com/jagvirdehal/CNN-imager)
 #### (PyTorch + Keras + sklearn)
@@ -61,28 +62,27 @@
 - Utilizes data structure and algorithms knowledge to reduce time and space complexity
 - Goal: To gain experience optimizing function calls on large datasets, as well as generating and pruning connections in large graphs
 
-## Skills {#skills}
+## Skills
 
-### Languages | Tools | Libraries
-####
+### Languages
 - C/C++
 - JavaScript
 - Python
 - Bash
 
-####
+### Tools
 - Linux/Unix
 - Docker
 - Github/Git
 - JIRA
 
-#### 
+### Libraries
 - React
 - Node.js
 - Three.js
 - TypeScript
 
-### Hackathons
+### Competitions
 - Hack the North 2021
 - Hack the North 2020++
 - UofT Designathon 2020
@@ -95,7 +95,7 @@
 - Hack the Hammer 2018
 - UofT Local Hackday 2017
 
-## Education {#education}
+## Education
 ### [University of Waterloo](https://uwaterloo.ca/)
 #### Computer Science (BCS)
 - Operating Systems
