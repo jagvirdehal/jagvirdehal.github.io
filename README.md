@@ -11,25 +11,34 @@ Email: jagvird216@gmail.com | Github: [jagvirdehal](https://github.com/jagvirdeh
 ## Work Experience
 
 ### [Ford Motor Company](https://ford.com/)
-#### Software Developer (Android & C/C++)
-- Cleaned up **10,000+ bugs** and warnings in a large **C/C++** and **Java** codebase
-- Merged **25 pull requests** **into production** on GitHub for the Bluetooth codebase
-- Created custom **Linux drivers** in **C** for Bluetooth over USB
-- Gained a solid understanding of the **Make/SOONG** build system in **AOSP**
+#### Software Developer Co-op | Summer 2023
+- Contributed 25+ pull requests in **C & C++** to Ford's **Bluetooth drivers** for their **Android** stack (AOSP)
+- Developed a program to **tunnel UART** from an Android device **over a TCP/IP socket** to a **Linux** workstation using **C**
+- Refined my understanding of Google's **Make/SOONG** build system in **Android/AOSP**
 
 ### [Advanced Micro Devices (AMD)](https://amd.com/)
-#### Software Developer (C/C++)
-- Navigated and worked with the AMD display driver; a massive C/C++ codebase
-- Updated FPGA/USB4 Windows driver code in C using Visual Studio and GitHub
-- Debugged and resolved display driver issues using WinDBG
-- Completed USB4 compliance for Ryzen 6000 using Voyager M4x and UCD-400
+#### Software Developer Co-op | Summer 2022
+- Worked on **AMD's Graphics drivers** for their mobile GPUs (rembrandt) using **C and C++**
+- Refined my ability to quickly understand a **massive C/C++ codebase** using debugging tools such as **gdb and WinDBG**
+- Updated their **Windows driver code** to enable DisplayPort over USB 4 to an **FPGA using C**
+
+### [University of Waterloo](https://uwaterloo.ca/)
+#### Instructional Support Assistant Co-op | Fall 2021
+- Developed a **Benchmarking Suite** to measure the performance of the students' max-clique algorithms using **Python, Bash and Racket**
+- Created **Linux scripts** to **automate creation of rubrics** and mark deductions for 1000+ students using **Bash and Python**
+- Worked entirely in an Ubuntu server environment to gain proficiency with **Linux tools and scripting**
+
+### [Sun Life Financial](https://www.sunlife.ca/en/)
+#### Network Engineer Co-op | Winter 2021
+- Created a **hardware inventory management system from scratch** to save time and reduce errors for engineers using **Python and JavaScript**
+- Maintained remote network switches using **PuTTY and Linux** expertise
+- Developed scripts to **parse error logs** and assist coworkers using **Python and Bash**
 
 ### [NCR Corporation](https://www.ncr.com/)
-#### Systems Software Engineer (Python)
-- Developed a firewall automation portal to enhance NCR's new security policies
-- Learned and utilized new technologies such as Ansible Tower (AWX), Fortinet, and LDAP
-- Collaborated remotely with teams in India, Ireland and USA
-- Submitted a professional report to NCR's security team to support the adoption of my firewall portal
+#### Systems Software Engineer Co-op | Summer 2020
+- Developed a **firewall automation portal from the ground up** to enhance NCR's new security policies using **JavaScript, Node.js and React**
+- Maintained the scripts used to generate the company's performance analytics using **Python, Pandas and Numpy**
+- Wrote a **professional report** to successfully persuade NCR's security team to adopt my firewall portal
 
 
 ## Projects
@@ -62,27 +71,32 @@ Email: jagvird216@gmail.com | Github: [jagvirdehal](https://github.com/jagvirdeh
 - Utilizes data structure and algorithms knowledge to reduce time and space complexity
 - Goal: To gain experience optimizing function calls on large datasets, as well as generating and pruning connections in large graphs
 
+## Education
+### [University of Waterloo](https://uwaterloo.ca/)
+#### Computer Science (BCS) 2025 (expected)
+Relevant courses:
+- Computational vision
+- Operating systems
+- Object-oriented software development
+- Computer organization and design
+- Data structures and data management
+
 ## Skills
 
-### Languages
-- C/C++
-- JavaScript
-- Python
-- Bash
+### Languages:
+C • C++ • JavaScript • Python • Bash
 
-### Tools
-- Linux/Unix
-- Docker
-- Github/Git
-- JIRA
+### Tools:
+Linux • Git • Docker • Kubernetes • WinDBG • gdb • JIRA
 
-### Libraries
-- React
-- Node.js
-- Three.js
-- TypeScript
+### Libraries:
+React.js • Node.js • Three.js • jQuery • PyTorch • Tensorflow • sklearn
 
-### Competitions
+### Other:
+Bluetooth HCI packets • Wireshark • Ansible Tower • VMWare
+
+### Competitions:
+- Hack the North 2023
 - Hack the North 2021
 - Hack the North 2020++
 - UofT Designathon 2020
@@ -94,11 +108,3 @@ Email: jagvird216@gmail.com | Github: [jagvirdehal](https://github.com/jagvirdeh
 - WolfHacks 2018
 - Hack the Hammer 2018
 - UofT Local Hackday 2017
-
-## Education
-### [University of Waterloo](https://uwaterloo.ca/)
-#### Computer Science (BCS)
-- Operating Systems
-- Data Structures
-- Algorithms
-- Computer Vision
