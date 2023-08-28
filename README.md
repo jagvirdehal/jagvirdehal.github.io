@@ -3,31 +3,31 @@ Email: jagvird216@gmail.com | Github: [jagvirdehal](https://github.com/jagvirdeh
 
 ## Work Experience
 
-### [Ford Motor Company](https://ford.com/)
+### Ford Motor Company
 #### Software Developer Co-op | Summer 2023
 - Contributed 25+ pull requests in **C & C++** to Ford's **Bluetooth drivers** for their **Android** stack (AOSP)
 - Developed a program to **tunnel UART** from an Android device **over a TCP/IP socket** to a **Linux** workstation using **C**
 - Refined my understanding of Google's **Make/SOONG** build system in **Android/AOSP**
 
-### [Advanced Micro Devices (AMD)](https://amd.com/)
+### AMD
 #### Software Developer Co-op | Summer 2022
 - Worked on **AMD's Graphics drivers** for their mobile GPUs (rembrandt) using **C and C++**
 - Refined my ability to quickly understand a **massive C/C++ codebase** using debugging tools such as **gdb and WinDBG**
 - Updated their **Windows driver code** to enable DisplayPort over USB 4 to an **FPGA using C**
 
-### [University of Waterloo](https://uwaterloo.ca/)
+### University of Waterloo
 #### Instructional Support Assistant Co-op | Fall 2021
 - Developed a **Benchmarking Suite** to measure the performance of the students' max-clique algorithms using **Python, Bash and Racket**
 - Created **Linux scripts** to **automate creation of rubrics** and mark deductions for 1000+ students using **Bash and Python**
 - Worked entirely in an Ubuntu server environment to gain proficiency with **Linux tools and scripting**
 
-### [Sun Life Financial](https://www.sunlife.ca/en/)
+### Sun Life Financial
 #### Network Engineer Co-op | Winter 2021
 - Created a **hardware inventory management system from scratch** to save time and reduce errors for engineers using **Python and JavaScript**
 - Maintained remote network switches using **PuTTY and Linux** expertise
 - Developed scripts to **parse error logs** and assist coworkers using **Python and Bash**
 
-### [NCR Corporation](https://www.ncr.com/)
+### NCR Corporation
 #### Systems Software Engineer Co-op | Summer 2020
 - Developed a **firewall automation portal from the ground up** to enhance NCR's new security policies using **JavaScript, Node.js and React**
 - Maintained the scripts used to generate the company's performance analytics using **Python, Pandas and Numpy**
