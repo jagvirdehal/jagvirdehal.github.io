@@ -1,13 +1,6 @@
 # Jagvir Dehal - Software Developer
 Email: jagvird216@gmail.com | Github: [jagvirdehal](https://github.com/jagvirdehal) | LinkedIn: [jagvirdehal](https://linkedin.com/in/jagvirdehal/)
 
-## Summary
-- Many years of experience working with C/C++, JavaScript and Python
-- Very well-versed in Linux, Bash and other common Unix tools
-- Comfortable working with large codebases (AMD / Ford)
-- Well-practiced in data structures and algorithms
-- In-depth knowledge of web frame-works (Node.js, React.js, etc.)
-
 ## Work Experience
 
 ### [Ford Motor Company](https://ford.com/)
