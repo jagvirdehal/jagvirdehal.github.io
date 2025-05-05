@@ -153,10 +153,15 @@
                 <li>Many years of experience working with <strong>C/C++</strong>, <strong>JavaScript</strong> and
                     <strong>Python</strong>
                 </li>
-                <li>Very well-versed in <strong>Linux</strong>, <strong>Bash</strong> and other common Unix tools</li>
-                <li>Comfortable working with <strong>large codebases</strong> (AMD / Ford)</li>
-                <li>Well-practiced in <strong>data structures</strong> and <strong>algorithms</strong></li>
-                <li>In-depth knowledge of <strong>web frame-works</strong> (Node.js, React.js, etc.)</li>
+                <li>Very well-versed in <strong>Linux</strong>, with several
+                    years of experience using it as a desktop and server</li>
+                <li>Comfortable working with <strong>large codebases</strong>
+                    (Tesla, AMD, Ford)</li>
+                <li>Well-practiced in <strong>operating systems</strong> and
+                    <strong>real-time programming</strong>
+                </li>
+                <li>In-depth knowledge of <strong>firmware development</strong>
+                    at Tesla and Ford</li>
             </ul>
         </div>
 
@@ -165,34 +170,63 @@
                 <h2 id="work-experience">Work Experience</h2>
                 <hr>
 
-                <h3 id="ford"><a href="https://ford.com/">Ford Motor Company</a></h3>
-                <h4>Software Developer (Android & C/C++)</h4>
+                <h3 id="tesla"><a href="https://tesla.com/">Tesla Motors</a></h3>
+                <h4>Maps and Navigation (C/C++, Go, Python)</h4>
                 <ul>
+                    <li>Developed a vehicle simulator for navigation
+                        validation (Python, C++)</li>
+                    <li>Built a replacement for our firmware
+                        networking code to utilize gRPC
+                        (C++, Go)</li>
+                    <li>Implemented a new weather radar service in
+                        Go, which in turn, saved $1.8 million.</li>
+                    <li>Integrated an AWS Client into our Navigation
+                        infrastructure to significantly reduce costs and
+                        deployment time</li>
+                    <li>Reproduced and patched a 2 year old
+                        networking bug in our production
+                        K8s deployment, as well as an
+                        ETA update bug caused by a race
+                        condition</li>
+                    <li>Contibuted a total of 122 PRs throughout the
+                        internship</li>
+                </ul>
+
+                <h3 id="ford"><a href="https://ford.com/">Ford Motor Company</a></h3>
+                <h4>Bluetooth Drivers (C/C++)</h4>
+                <ul>
+                    <li>Developed a tool to tunnel UART bluetooth
+                        data from an Android device (car) over a
+                        TCP/IP socket to a Linux workstation in
+                        C</li>
                     <li>Cleaned up <strong>10,000+ bugs</strong> and warnings in a large <strong>C/C++ and Java</strong>
                         codebase</li>
-                    <li>Merged <strong>25 pull requests</strong> into production on <strong>GitHub</strong> for the
-                        <strong>Bluetooth</strong> codebase
+                    <li>Worked on <a href="https://www.bluetooth.com/specifications/specs/core-specification-5-4/"
+                            class="noul">filtering PIIs</a> from Bluetooth packets using <strong>C/C++</strong> and
+                        <strong>Wireshark</strong>
                     </li>
-                    <li>Created custom <strong>Linux drivers</strong> in <strong>C</strong> for Bluetooth over USB</li>
-                    <!-- <li>Worked on <a href="https://www.bluetooth.com/specifications/specs/core-specification-5-4/" class="noul">filtering PIIs</a> from Bluetooth packets using <strong>C/C++</strong> and <strong>Wireshark</strong></li> -->
                     <li>Gained a solid understanding of the <strong>Make/SOONG</strong> build system in
                         <strong>AOSP</strong>
                     </li>
                 </ul>
 
                 <h3 id="amd"><a href="https://amd.com/">Advanced Micro Devices (AMD)</a></h3>
-                <h4>Software Developer (C/C++)</h4>
+                <h4>Display Abstraction Layer (C/C++)</h4>
                 <ul>
-                    <li>Navigated and worked with the AMD display driver; a massive <strong>C/C++ codebase</strong></li>
-                    <li>Updated <strong>FPGA/USB4</strong> Windows driver code in <strong>C</strong> using Visual Studio
-                        and <strong>GitHub</strong></li>
-                    <li>Debugged and resolved display driver issues using <strong>WinDBG</strong></li>
-                    <li>Completed <strong>USB4 compliance</strong> for <strong>Ryzen 6000</strong> using Voyager M4x and
-                        UCD-400</li>
+                    <li>Updated 4 year old driver code for an <strong>FPGA GPU</strong>
+                        to enable DisplayPort over USB 4 using
+                        latest drivers.</li>
+                    <li>Refined my ability to use debug tools such
+                        as gdb and WindDBG to quickly understand
+                        a massive C/C++ codebase (the AMD display driver).</li>
+                    <li>Resolved issues and completed <strong>USB4
+                            compliance</strong> process for Ryzen
+                        6000 mobile GPUs using Voyager M4x, UCD-400, and
+                        debugging tools</li>
                 </ul>
 
                 <h3 id="ncr"><a href="https://www.ncr.com/">NCR Corporation</a></h3>
-                <h4>Systems Software Engineer (Python)</h4>
+                <h4>Systems Software/Architecture (Python)</h4>
                 <ul>
                     <li>Developed a <strong>firewall automation portal</strong> to enhance NCR's new security policies
                     </li>
@@ -209,35 +243,36 @@
                 <h2 id="projects">Projects</h2>
                 <hr>
 
-                <h3 id="semisupervisedcnnimageclassificationpytorchkerassklearn"><a
-                        href="https://github.com/jagvirdehal/CNN-imager">CNN Image Classification</a></h3>
-                <h4>(PyTorch + Keras + sklearn)</h4>
+                <h3 id="microkernel">Real-time Operating System from Scratch</h3>
+                <h4>(C++)</h4>
                 <ul>
-                    <li>Developed a project focused on improving <strong>CNN</strong> accuracy for <strong>image
-                            classification</strong> from unlabeled data</li>
-                    <li>Utilized <strong>Principal Component Analysis (PCA)</strong> to normalize and reduce image
-                        complexity</li>
-                    <li>Clustered images together using <strong>K-means</strong> clustering approach</li>
-                    <li>Investigated the use of different pre-trained models for embeddings vs. the PCA reduction</li>
-                    <li><strong>Goal:</strong> To gain experience with <strong>Machine Learning</strong> and
-                        <strong>Computer Vision</strong>
-                    </li>
+                    <li>Created a microkernel OS for a Raspberry Pi to control a
+                        model train set from the 1980s</li>
+                    <li>Implemented a scheduler, interrupt handler/controller,
+                        and several user tasks to build up our operating
+                        system in C</li>
+                    <li>Created several patches to <a href="https://github.com/jagvirdehal/qemu/pull/1">QEMU's
+                            source code</a> to implement Raspi functionality
+                        that was not yet implemented</li>
+                    <li>Collected velocity and acceleration data of the model
+                        trains to accurately predict their positions, avoid
+                        collisions, and route them efficiently</li>
                 </ul>
 
-                <h3 id="flightsim"><a href="https://github.com/jagvirdehal/flight-sim">Flight Simulator</a></h3>
-                <h4>(React + <a href="https://hub.docker.com/r/jdehal/flight-sim">Docker</a> + Socket.io)</h4>
+                <h3 id="compiler"><a href="https://github.com/jagvirdehal/java-compiler">Java Subset Compiler</a></h3>
+                <h4>(C++)</h4>
                 <ul>
-                    <li>Developed an accessible flight simulation experience that uses a <strong>smartphone
-                            accelerometer</strong> to control the airplane</li>
-                    <li>Implemented camera controls and movement <strong>from scratch</strong> using primative computer
-                        graphics (<strong>vectors, quaternions, etc.</strong>)</li>
-                    <li><strong>Goal:</strong> To gain experience with <strong>Docker containers</strong>,
-                        <strong>computer graphics</strong>, and <strong>full-stack app development</strong>
-                    </li>
+                    <li>Created a compiler for a subset of the Java language in
+                        C++</li>
+                    <li>Autonomously tested compiler using the Fuzzing technique
+                        via LibFuzzer and LibProtoBuf Mutator</li>
+                    <li>Compiler performs scanning/parsing of source code,
+                        static checking on the resulting abstract syntax
+                        tree, and code generation into x86 assembly</li>
                 </ul>
 
                 <h3 id="customkeyboardfirmwarec">Custom Keyboard Firmware</h3>
-                <h4>(C/C++)</h4>
+                <h4>(C)</h4>
                 <ul>
                     <li>Developed <strong>custom firmware</strong> for my ATMEGAU32 keyboard using <strong>QMK</strong>
                     </li>
@@ -250,7 +285,7 @@
                 </ul>
 
                 <h3 id="chess"><a href="https://github.com/jagvirdehal/chess">Chess Endgame Solver</a></h3>
-                <h4>(Python + Scipy + Numpy)</h4>
+                <h4>(Python)</h4>
                 <ul>
                     <li>Developed a program that can arbitrarily solve endgame chess positions using <strong>graph
                             theory</strong></li>
@@ -258,10 +293,27 @@
                             graph connections</strong></li>
                     <li>Utilizes <strong>data structure and algorithms</strong> knowledge to reduce time and space
                         complexity</li>
-                    <li><strong>Goal:</strong> To gain experience <strong>optimizing</strong> function calls on
-                        <strong>large datasets</strong>, as well as generating
-                        and <strong>pruning</strong> connections in <strong>large graphs</strong>
-                    </li>
+                </ul>
+
+                <h3 id="flightsim"><a href="https://github.com/jagvirdehal/flight-sim">Flight Simulator</a></h3>
+                <h4>(JavaScript + Docker)</h4>
+                <ul>
+                    <li>Developed an accessible flight simulation experience that uses a <strong>smartphone
+                            accelerometer</strong> to control the airplane</li>
+                    <li>Implemented camera controls and movement <strong>from scratch</strong> using primative computer
+                        graphics (<strong>vectors, quaternions, etc.</strong>)</li>
+                </ul>
+
+
+                <h3 id="semisupervisedcnnimageclassificationpytorchkerassklearn"><a
+                        href="https://github.com/jagvirdehal/CNN-imager">CNN Image Classification</a></h3>
+                <h4>(PyTorch)</h4>
+                <ul>
+                    <li>Developed a project focused on improving <strong>CNN</strong> accuracy for <strong>image
+                            classification</strong> from unlabeled data</li>
+                    <li>Utilized <strong>Principal Component Analysis (PCA)</strong> to normalize and reduce image
+                        complexity</li>
+                    <li>Clustered images together using <strong>K-means</strong> clustering approach</li>
                 </ul>
             </div>
         </div>
