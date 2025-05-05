@@ -6,55 +6,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        *
-        { font-family: sans-serif; }
-        a, a:visited
-        { color: teal; }
-        h1
-        { margin-bottom: 15px; }
-        h2, h3, h4, h5
-        { margin: 0; }
-        h3
-        { text-decoration: underline; }
-        ul
-        { margin-top: 7px; }
-        
-        #body
-        { display: grid; }
-        
-        #mid
-        { order: -1; }
+        * {
+            font-family: sans-serif;
+        }
 
-        #left, #mid, #right {
+        a,
+        a:visited {
+            color: teal;
+            text-decoration: underline;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5 {
+            margin: 0;
+        }
+
+        h3 {
+            text-decoration: underline;
+        }
+
+        ul {
+            margin-top: 7px;
+        }
+
+        #body {
+            display: grid;
+        }
+
+        #mid {
+            order: -1;
+        }
+
+        #left,
+        #mid,
+        #right {
             padding: 12px 16px;
             margin: 8px 8px;
             background-color: #f7f7f7;
         }
+
         #left {
             margin-left: 0;
         }
-        #mid, #right {
+
+        #mid,
+        #right {
             margin-right: 0;
         }
-        
+
         #lang-lib-tools {
             display: grid;
             grid-template-columns: repeat(auto-fit, 100px);
         }
+
         .noul {
             text-decoration: none;
         }
-        
+
         @media screen and (min-width: 810px) {
-            #left
-            { grid-row-end: span 2; }
-            #mid
-            { order: 0; }
+            #left {
+                order: -1;
+                grid-row-end: span 2;
+            }
+
+            #mid {
+                order: 0;
+            }
+
             #body {
                 max-width: 1060px;
                 margin: auto;
                 grid-template-columns: 6fr 3fr;
                 grid-template-rows: auto 1fr;
+            }
+        }
+
+        @media print {
+            #body {
+                display: inline;
+                margin: 0;
+            }
+
+            #left,
+            #mid,
+            #right {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            li {
+                font-size: 1em;
+            }
+
+            body {
+                width: 100%;
+                margin: 0;
+            }
+
+            #lang-lib-tools {
+                display: flex;
+            }
+
+            #rgroup {
+                display: grid;
+                grid-template-columns: 3fr 2fr;
+                grid-template-rows: auto 1fr;
+            }
+
+            #rmid {
+                /* order: 1; */
+                grid-row-end: span 2;
+            }
+
+            #rtop {
+                /* order: 2; */
+            }
+
+            #rbot {
+                /* order: 3; */
             }
         }
     </style>
@@ -64,152 +139,194 @@
 <body>
     <center style="margin-bottom: 10px;">
         <h1 id="title">Jagvir Dehal - Software&nbsp;Developer</h1>
-        Email:&nbsp;<a href="mailto:jagvird216@gmail.com">jagvird216@gmail.com</a> | Github:&nbsp;<a href="https://github.com/jagvirdehal">jagvirdehal</a> | LinkedIn:&nbsp;<a href="https://linkedin.com/in/jagvirdehal/">jagvirdehal</a>
+        Email:&nbsp;<a href="mailto:jagvird216@gmail.com">jagvird216@gmail.com</a> | Github:&nbsp;<a
+            href="https://github.com/jagvirdehal">jagvirdehal</a> | LinkedIn:&nbsp;<a
+            href="https://linkedin.com/in/jagvirdehal/">jagvirdehal</a>
         <br>
     </center>
 
-
     <div id="body">
+        <div id="mid">
+            <h2 id="summary">Summary</h2>
+            <hr>
+            <ul>
+                <li>Many years of experience working with <strong>C/C++</strong>, <strong>JavaScript</strong> and
+                    <strong>Python</strong>
+                </li>
+                <li>Very well-versed in <strong>Linux</strong>, <strong>Bash</strong> and other common Unix tools</li>
+                <li>Comfortable working with <strong>large codebases</strong> (AMD / Ford)</li>
+                <li>Well-practiced in <strong>data structures</strong> and <strong>algorithms</strong></li>
+                <li>In-depth knowledge of <strong>web frame-works</strong> (Node.js, React.js, etc.)</li>
+            </ul>
+        </div>
+
         <div id="left">
             <div id="ltop">
-                <h2 id="work-experience">Work Experience</h2><hr>
-        
+                <h2 id="work-experience">Work Experience</h2>
+                <hr>
+
                 <h3 id="ford"><a href="https://ford.com/">Ford Motor Company</a></h3>
                 <h4>Software Developer (Android & C/C++)</h4>
                 <ul>
-                <li>Cleaned up <strong>10,000+ bugs</strong> and warnings in a large <strong>C/C++ and Java</strong> codebase</li>
-                <li>Merged <strong>25 pull requests</strong> into production on <strong>GitHub</strong> for the <strong>Bluetooth</strong> codebase</li>
-                <li>Created custom <strong>Linux drivers</strong> in <strong>C</strong> for Bluetooth over USB</li>
-                <!-- <li>Worked on <a href="https://www.bluetooth.com/specifications/specs/core-specification-5-4/" class="noul">filtering PIIs</a> from Bluetooth packets using <strong>C/C++</strong> and <strong>Wireshark</strong></li> -->
-                <li>Gained a solid understanding of the <strong>Make/SOONG</strong> build system in <strong>AOSP</strong></li>
+                    <li>Cleaned up <strong>10,000+ bugs</strong> and warnings in a large <strong>C/C++ and Java</strong>
+                        codebase</li>
+                    <li>Merged <strong>25 pull requests</strong> into production on <strong>GitHub</strong> for the
+                        <strong>Bluetooth</strong> codebase
+                    </li>
+                    <li>Created custom <strong>Linux drivers</strong> in <strong>C</strong> for Bluetooth over USB</li>
+                    <!-- <li>Worked on <a href="https://www.bluetooth.com/specifications/specs/core-specification-5-4/" class="noul">filtering PIIs</a> from Bluetooth packets using <strong>C/C++</strong> and <strong>Wireshark</strong></li> -->
+                    <li>Gained a solid understanding of the <strong>Make/SOONG</strong> build system in
+                        <strong>AOSP</strong>
+                    </li>
                 </ul>
-                
+
                 <h3 id="amd"><a href="https://amd.com/">Advanced Micro Devices (AMD)</a></h3>
                 <h4>Software Developer (C/C++)</h4>
                 <ul>
-                <li>Navigated and worked with the AMD display driver; a massive <strong>C/C++ codebase</strong></li>
-                <li>Updated <strong>FPGA/USB4</strong> Windows driver code in <strong>C</strong> using Visual Studio and <strong>GitHub</strong></li>
-                <li>Debugged and resolved display driver issues using <strong>WinDBG</strong></li>
-                <li>Completed <strong>USB4 compliance</strong> for <strong>Ryzen 6000</strong> using Voyager M4x and UCD-400</li>
+                    <li>Navigated and worked with the AMD display driver; a massive <strong>C/C++ codebase</strong></li>
+                    <li>Updated <strong>FPGA/USB4</strong> Windows driver code in <strong>C</strong> using Visual Studio
+                        and <strong>GitHub</strong></li>
+                    <li>Debugged and resolved display driver issues using <strong>WinDBG</strong></li>
+                    <li>Completed <strong>USB4 compliance</strong> for <strong>Ryzen 6000</strong> using Voyager M4x and
+                        UCD-400</li>
                 </ul>
-                
+
                 <h3 id="ncr"><a href="https://www.ncr.com/">NCR Corporation</a></h3>
                 <h4>Systems Software Engineer (Python)</h4>
                 <ul>
-                <li>Developed a <strong>firewall automation portal</strong> to enhance NCR's new security policies</li>
-                <li>Learned and utilized new technologies such as <strong>Ansible Tower (AWX)</strong>, <strong>Fortinet</strong>, and <strong>LDAP</strong></li>
-                <li>Collaborated <strong>remotely</strong> with teams in India, Ireland and USA</li>
-                <li>Submitted a <strong>professional report</strong> to NCR's security team to support the adoption of my firewall portal</li>
+                    <li>Developed a <strong>firewall automation portal</strong> to enhance NCR's new security policies
+                    </li>
+                    <li>Learned and utilized new technologies such as <strong>Ansible Tower (AWX)</strong>,
+                        <strong>Fortinet</strong>, and <strong>LDAP</strong>
+                    </li>
+                    <li>Collaborated <strong>remotely</strong> with teams in India, Ireland and USA</li>
+                    <li>Submitted a <strong>professional report</strong> to NCR's security team to support the adoption
+                        of my firewall portal</li>
                 </ul>
             </div>
-            
+
             <div id="lbot">
-                <h2 id="projects">Projects</h2><hr>
-                
-                <h3 id="semisupervisedcnnimageclassificationpytorchkerassklearn"><a href="https://github.com/jagvirdehal/CNN-imager">CNN Image Classification</a></h3>
+                <h2 id="projects">Projects</h2>
+                <hr>
+
+                <h3 id="semisupervisedcnnimageclassificationpytorchkerassklearn"><a
+                        href="https://github.com/jagvirdehal/CNN-imager">CNN Image Classification</a></h3>
                 <h4>(PyTorch + Keras + sklearn)</h4>
                 <ul>
-                <li>Developed a project focused on improving <strong>CNN</strong> accuracy for <strong>image classification</strong> from unlabeled data</li>
-                <li>Utilized <strong>Principal Component Analysis (PCA)</strong> to normalize and reduce image complexity</li>
-                <li>Clustered images together using <strong>K-means</strong> clustering approach</li>
-                <li>Investigated the use of different pre-trained models for embeddings vs. the PCA reduction</li>
-                <li><strong>Goal:</strong> To gain experience with <strong>Machine Learning</strong> and <strong>Computer Vision</strong></li>
+                    <li>Developed a project focused on improving <strong>CNN</strong> accuracy for <strong>image
+                            classification</strong> from unlabeled data</li>
+                    <li>Utilized <strong>Principal Component Analysis (PCA)</strong> to normalize and reduce image
+                        complexity</li>
+                    <li>Clustered images together using <strong>K-means</strong> clustering approach</li>
+                    <li>Investigated the use of different pre-trained models for embeddings vs. the PCA reduction</li>
+                    <li><strong>Goal:</strong> To gain experience with <strong>Machine Learning</strong> and
+                        <strong>Computer Vision</strong>
+                    </li>
                 </ul>
-                
+
                 <h3 id="flightsim"><a href="https://github.com/jagvirdehal/flight-sim">Flight Simulator</a></h3>
                 <h4>(React + <a href="https://hub.docker.com/r/jdehal/flight-sim">Docker</a> + Socket.io)</h4>
                 <ul>
-                <li>Developed an accessible flight simulation experience that uses a <strong>smartphone accelerometer</strong> to control the airplane</li>
-                <li>Implemented camera controls and movement <strong>from scratch</strong> using primative computer graphics (<strong>vectors, quaternions, etc.</strong>)</li>
-                <li><strong>Goal:</strong> To gain experience with <strong>Docker containers</strong>, <strong>computer graphics</strong>, and <strong>full-stack app development</strong></li>
+                    <li>Developed an accessible flight simulation experience that uses a <strong>smartphone
+                            accelerometer</strong> to control the airplane</li>
+                    <li>Implemented camera controls and movement <strong>from scratch</strong> using primative computer
+                        graphics (<strong>vectors, quaternions, etc.</strong>)</li>
+                    <li><strong>Goal:</strong> To gain experience with <strong>Docker containers</strong>,
+                        <strong>computer graphics</strong>, and <strong>full-stack app development</strong>
+                    </li>
                 </ul>
-                
+
                 <h3 id="customkeyboardfirmwarec">Custom Keyboard Firmware</h3>
                 <h4>(C/C++)</h4>
                 <ul>
-                <li>Developed <strong>custom firmware</strong> for my ATMEGAU32 keyboard using <strong>QMK</strong></li>
-                <li>Implemented a <strong>feature</strong> to dynamically display my WPM on the keyboard via backlights</li>
-                <li>Connected the keyboard to my <strong>smart home</strong> to control the lights and AC</li>
-                <li><strong>Goal:</strong> To gain experience with <strong>open source software</strong>, creating <strong>firmware</strong> in <strong>C</strong>, and <strong>API</strong>s</li>
+                    <li>Developed <strong>custom firmware</strong> for my ATMEGAU32 keyboard using <strong>QMK</strong>
+                    </li>
+                    <li>Implemented a <strong>feature</strong> to dynamically display my WPM on the keyboard via
+                        backlights</li>
+                    <li>Connected the keyboard to my <strong>smart home</strong> to control the lights and AC</li>
+                    <li><strong>Goal:</strong> To gain experience with <strong>open source software</strong>, creating
+                        <strong>firmware</strong> in <strong>C</strong>, and <strong>API</strong>s
+                    </li>
                 </ul>
-                
+
                 <h3 id="chess"><a href="https://github.com/jagvirdehal/chess">Chess Endgame Solver</a></h3>
                 <h4>(Python + Scipy + Numpy)</h4>
                 <ul>
-                <li>Developed a program that can arbitrarily solve endgame chess positions using <strong>graph theory</strong></li>
-                <li><strong>Optimized</strong> algorithms to work with large datasets upwards of <strong>4.5 million graph connections</strong></li>
-                <li>Utilizes <strong>data structure and algorithms</strong> knowledge to reduce time and space complexity</li>
-                <li><strong>Goal:</strong> To gain experience <strong>optimizing</strong> function calls on <strong>large datasets</strong>, as well as generating 
-                and <strong>pruning</strong> connections in <strong>large graphs</strong></li>
+                    <li>Developed a program that can arbitrarily solve endgame chess positions using <strong>graph
+                            theory</strong></li>
+                    <li><strong>Optimized</strong> algorithms to work with large datasets upwards of <strong>4.5 million
+                            graph connections</strong></li>
+                    <li>Utilizes <strong>data structure and algorithms</strong> knowledge to reduce time and space
+                        complexity</li>
+                    <li><strong>Goal:</strong> To gain experience <strong>optimizing</strong> function calls on
+                        <strong>large datasets</strong>, as well as generating
+                        and <strong>pruning</strong> connections in <strong>large graphs</strong>
+                    </li>
                 </ul>
             </div>
         </div>
 
-        <div id="mid">
-            <h2 id="summary">Summary</h2><hr>
-            <ul>
-            <li>Many years of experience working with <strong>C/C++</strong>, <strong>JavaScript</strong> and <strong>Python</strong></li>
-            <li>Very well-versed in <strong>Linux</strong>, <strong>Bash</strong> and other common Unix tools</li>
-            <li>Comfortable working with <strong>large codebases</strong> (AMD / Ford)</li>
-            <li>Well-practiced in <strong>data structures</strong> and <strong>algorithms</strong></li>
-            <li>In-depth knowledge of <strong>web frame-works</strong> (Node.js, React.js, etc.)</li>
-            </ul>
-        </div>
         <div id="right">
-            <div id="rtop">
-                <h2 id="skills">Skills</h2><hr>
+            <h2 id="skills">Skills</h2>
+            <hr>
 
-                <h3 id="languages">Languages | Libraries | Tools</h3>
+            <div id="rgroup">
+
+            <div id="rtop">
+                <h3 id="languages">Languages | Knowledge | Tools</h3>
                 <div id="lang-lib-tools">
                     <ul id="lang">
-                    <li>C/C++</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>Bash</li>
+                        <li>C/C++</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Go</li>
                     </ul>
-        
+
                     <ul id="libs">
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <li>Three.js</li>
-                    <li>TypeScript</li>
+                        <li>React</li>
+                        <li>Firmware</li>
+                        <li>Graphics</li>
+                        <li>Three.js</li>
                     </ul>
-        
+
                     <ul id="tools">
-                    <li>Linux/Unix</li>
-                    <li>Docker</li>
-                    <li>Github/Git</li>
-                    <li>JIRA</li>
+                        <li>Linux</li>
+                        <li>Docker</li>
+                        <li>K8s</li>
+                        <li>Git</li>
                     </ul>
                 </div>
             </div>
             <div id="rmid">
                 <h3 id="hackathons">Hackathons</h3>
                 <ul>
-                <li>Hack the North 2021</li>
-                <li>Hack the North 2020++</li>
-                <li>UofT Designathon 2020</li>
-                <li>StarterHacks 2020</li>
-                <li>Hack the North 2019</li>
-                <li>ETHWaterloo 2019</li>
-                <li>VikingHacks 2019 (organizer)</li>
-                <li>PCHacks 2019</li>
-                <li>WolfHacks 2018</li>
-                <li>Hack the Hammer 2018</li>
-                <li>UofT Local Hackday 2017</li>
+                    <li>Hack the North 2021</li>
+                    <li>Hack the North 2020++</li>
+                    <li>UofT Designathon 2020</li>
+                    <li>StarterHacks 2020</li>
+                    <li>Hack the North 2019</li>
+                    <li>ETHWaterloo 2019</li>
+                    <li>VikingHacks 2019 (organizer)</li>
+                    <li>PCHacks 2019</li>
+                    <li>WolfHacks 2018</li>
+                    <li>Hack the Hammer 2018</li>
+                    <li>UofT Local Hackday 2017</li>
                 </ul>
             </div>
             <div id="rbot">
-                <h2 id="education">Education</h2><hr>
-                
+                <h2 id="education">Education</h2>
+                <hr>
+
                 <h3 id="uofw"><a href="https://uwaterloo.ca/">University of Waterloo</a></h3>
                 <h4>Computer Science (BCS)</h4>
                 <ul>
-                <li>Operating Systems</li>
-                <li>Data Structures</li>
-                <li>Algorithms</li>
-                <li>Computer Vision</li>
+                        <li>Real Time Programming</li>
+                        <li>Operating Systems</li>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Computer Vision</li>
                 </ul>
+            </div>
+
             </div>
         </div>
     </div>
